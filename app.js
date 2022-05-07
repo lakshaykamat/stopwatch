@@ -11,7 +11,7 @@ let buttonReset = document.querySelector('.btn-reset');
 
 //Add eventlistner when click start function setInterval
 buttonStart.addEventListener('click', ()=>{
-   interval = setInterval(startTimer,.10)
+   interval = setInterval(startTimer,10)
 })
 
 //Add event listner when click the stop button to clear interval
